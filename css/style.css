@@ -58,18 +58,13 @@ body{
     border: none;
 
 }
-textarea::placeholder{
-    color:#CECECE;
-}
-.forms-2::placeholder{
-    color:#CECECE;
-}
-
-.form-input::placeholder{
+textarea::placeholder,
+.form-input::placeholder
+{
     color:#CECECE;
     font-size: 13px;
-   
 }
+
 .form-input{
     border-color: #E8E8E8;
     padding: 20px 0px 21px 20px;
@@ -78,7 +73,7 @@ textarea::placeholder{
 }
 /* end forms */
 .container-2{
-    width: 900px;
+    max-width: 900px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
