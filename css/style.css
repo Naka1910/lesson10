@@ -66,11 +66,12 @@ textarea::placeholder,
 }
 
 .form-input{
-    border-color: #E8E8E8;
+    border: solid  #E8E8E8;
     padding: 20px 0px 21px 20px;
     font-family: 'Poppins Regular', sans-serif;
 
 }
+
 /* end forms */
 .container-2{
     max-width: 900px;
